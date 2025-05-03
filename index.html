@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гайд про прокачке</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cont">
+        <div class="choosing">
+            <div class="faction" id="faction">
+                <h1>Выбери фракцию</h1>
+                <div id="choosing_faction">
+                    <div class="factions" id="horde">
+                        <img src="./img/Horde.webp" alt="Horde">
+                    </div>
+                    <div class="factions" id="aliance">
+                        <img src="./img/Aliance.webp" alt="Aliance">
+                    </div>
+                </div>
+            </div>
+            <div class="race hidden">
+                <h1>Выбери расу</h1>
+                <div id="choosing_race">
+                    <div class="race_list" id="races_list_horde">
+                        <div class="horde_races" id="orc">
+                            <img src="./img/200px-Orc_Crest.webp" alt="Orc">
+                        </div>
+                        <div class="horde_races" id="troll">
+                            <img src="./img/200px-Troll_Crest.webp" alt="Troll">
+                        </div>
+                        <div class="horde_races" id="tauren">
+                            <img src="./img/200px-Tauren_Crest.webp" alt="Tauren">
+                        </div>
+                        <div class="horde_races" id="undead">
+                            <img src="./img/200px-Forsaken_Crest.webp" alt="Undead">
+                        </div>
+                        <div class="horde_races" id="b_elf">
+                            <img src="./img/200px-Icon_of_Blood.webp" alt="Blood Elf">
+                        </div>
+                    </div>
+                    <div class="race_list" id="races_list_aliance">
+                        <div class="aliance_races" id="human">
+                            <img src="./img/200px-Human_Crest.webp" alt="Human">
+                        </div>
+                        <div class="aliance_races" id="dwarf">
+                            <img src="./img/200px-Dwarf_Crest.webp" alt="Dwarf">
+                        </div>
+                        <div class="aliance_races" id="gnome">
+                            <img src="./img/200px-Gnome_Crest.webp" alt="Gnome">
+                        </div>
+                        <div class="aliance_races" id="n_elf">
+                            <img src="./img/200px-Night_Elf_Crest.webp" alt="Night Elf">
+                        </div>
+                        <div class="aliance_races" id="draenei">
+                            <img src="./img/200px-Draenei_Crest.webp" alt="Draenei">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="level hidden">
+                <h1>Выбери уровни</h1>
+                <div class="levels_list">
+                    <div class="levels" id="01-10">
+                        <h3>01-10</h3>
+                    </div>
+                    <div class="levels" id="10-20">
+                        <h3>10-20</h3>
+                    </div>
+                    <div class="levels"id="20-30">
+                        <h3>20-30</h3>
+                    </div>
+                    <div class="levels"id="30-40">
+                        <h3>30-40</h3>
+                    </div>
+                    <div class="levels" id="40-50">
+                        <h3>40-50</h3>
+                    </div>
+                    <div class="levels" id="50-60">
+                        <h3>50-60</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="leveling">
+            <div id="h20to30">
+                <h1 class="h-title">Horde 20 to 30</h1>
+                <h4 class="lvl-location">20-21 Stonetalon Mountains</h4>
+                <div class="toDo">
+                    <table class="toDo_table">
+                        <tr class="tr_header">
+                            <th class="num">№</th>
+                            <th class="step">Что делать</th>
+                            <th class="done">Сделано?</th>
+                        </tr>
+                        <tr class="tr_rest">
+                            <td class="num">1)</td>
+                            <td class="step">Run to Malaka'Jin at #COORD[71,94]</td>
+                            <td class="done">
+                                <input type="checkbox" name="h2030-1" id="h2030-1">
+                            </td>
+                        </tr>
+                        <tr class="tr_rest">
+                            <td class="num">2)</td>
+                            <td class="step">Accept #GETBlood Feeders#</td>
+                            <td class="done">
+                                <input type="checkbox" name="h2030-2" id="h2030-2">
+                            </td>
+                        </tr>
+                        <tr class="tr_rest">
+                            <td class="num">3)</td>
+                            <td class="step">Turn in #INLetter to Jin'Zil# at #COORD[74,97]# in the cave ... accept #GETJin'Zil's Forest Magic# ", x = 74, y = 97, zone = "Stonetalon Mountains"</td>
+                            <td class="done">
+                                <input type="checkbox" name="h2030-3" id="h2030-3">
+                            </td>
+                        </tr>
+                        <tr class="tr_rest">
+                            <td class="num">4)</td>
+                            <td class="step">Then go accept #GETArachnophobia# from the Wanted poster at #COORD[59,75]#", x = 59, y = 75, zone = "Stonetalon Mountains"</td>
+                            <td class="done">
+                                <input type="checkbox" name="h2030-4" id="h2030-4">
+                            </td>
+                        </tr>
+                        <tr class="tr_rest">
+                            <td class="num">5)</td>
+                            <td class="step">Accept #GETBlood Feeders#Go do #DOBlood Feeders# along with #DODeepmoss Spider Eggs# and #DOArachnophobia# around #COORD[54,76]# NOTE: you can skip Arachnophobia for now, you'll return here later...", x = 54, y = 76, zone = "Stonetalon Mountains"</td>
+                            <td class="done">
+                                <input type="checkbox" name="h2030-5" id="h2030-5">
+                            </td>
+                        </tr>
+                        <tr class="tr_rest">
+                            <td class="num">6)</td>
+                            <td class="step">Then turn in #INZiz Fizziks# at the goblin in the hut at Windshear Crag, #COORD[58,62]# ... accept #GETSuper Reaper 6000# ", x = 58, y = 62, zone = "Stonetalon Mountains"</td>
+                            <td class="done">
+                                <input type="checkbox" name="h2030-6" id="h2030-6">
+                            </td>
+                        </tr>
+                        <tr class="tr_rest">
+                            <td class="num">7)</td>
+                            <td class="step">Then do: #DOGoblin Invaders# and #DOSuper Reaper 6000# (the mobs are just north in Windshear Crag)"</td>
+                            <td class="done">
+                                <input type="checkbox" name="h2030-7" id="h2030-7">
+                            </td>
+                        </tr>
+                        <tr class="tr_rest">
+                            <td class="num">8)</td>
+                            <td class="step">Then turn in #INSuper Reaper 6000# #COORD[58,62]# ... accept #GETFurther Instructions# ", x = 58, y = 62, zone = "Stonetalon Mountains"</td>
+                            <td class="done">
+                                <input type="checkbox" name="h2030-8" id="h2030-8">
+                            </td>
+                        </tr>
+                        <tr class="tr_rest">
+                            <td class="num">9)</td>
+                            <td class="step">Run to Sun Rock Retreat at #COORD[46,59]#.", x = 46, y = 59, zone = "Stonetalon Mountains"</td>
+                            <td class="done">
+                                <input type="checkbox" name="h2030-9" id="h2030-9">
+                            </td>
+                        </tr>
+                        <tr class="tr_rest">
+                            <td class="num">10)</td>
+                            <td class="step">Turn in #INArachnophobia# and #INKaya's Alive# if you did the escort quest"</td>
+                            <td class="done">
+                                <input type="checkbox" name="h2030-10" id="h2030-10">
+                            </td>
+                        </tr>
+                        <tr class="tr_rest">
+                            <td class="num">11)</td>
+                            <td class="step">Get FP there."</td>
+                            <td class="done">
+                                <input type="checkbox" name="h2030-11" id="h2030-11">
+                            </td>
+                        </tr>
+                        <tr class="tr_rest">
+                            <td class="num">12)</td>
+                            <td class="step">Run up the little #VIDEOpathway# and accept #GETBoulderslide Ravine# and #GETTrouble in the Deeps# at #COORD[47,64]#", x = 47, y = 64, zone = "Stonetalon Mountains"</td>
+                            <td class="done">
+                                <input type="checkbox" name="h2030-12" id="h2030-12">
+                            </td>
+                        </tr>
+                        <tr class="tr_rest">
+                            <td class="num">13)</td>
+                            <td class="step">Then go do #DOBoulderslide Ravine# at #COORD[61,92]#", x = 61, y = 92, zone = "Stonetalon Mountains"</td>
+                            <td class="done">
+                                <input type="checkbox" name="h2030-13" id="h2030-13">
+                            </td>
+                        </tr>
+                        <tr class="tr_rest">
+                            <td class="num">14)</td>
+                            <td class="step">Then turn in #INBlood Feeders# #COORD[71,95]#", x = 71, y = 95, zone = "Stonetalon Mountains"</td>
+                            <td class="done">
+                                <input type="checkbox" name="h2030-14" id="h2030-14">
+                            </td>
+                        </tr>
+                        <tr class="tr_rest">
+                            <td class="num">15)</td>
+                            <td class="step">Turn in #INGoblin Invaders# at #COORD[35,27]# in the Barrens ... accept #GETShredding Machines#   (I SKIP #NPCThe Elder Crone# )", x = 35, y = 27, zone = "The Barrens"</td>
+                            <td class="done">
+                                <input type="checkbox" name="h2030-15" id="h2030-15">
+                            </td>
+                        </tr>
+                        <tr class="tr_rest">
+                            <td class="num">16)</td>
+                            <td class="step">Hearth to XRs."</td>
+                            <td class="done">
+                                <input type="checkbox" name="h2030-16" id="h2030-16">
+                            </td>
+                        </tr>
+                        <tr class="tr_rest">
+                            <td class="num">17)</td>
+                            <td class="step">Run north to Ashenvale (stopping along the way to turn in #INReport to Kadrak# (at 48.5) but SKIP #NPCThe Warsong Reports# ", x = 48, y = 5, zone = "The Barrens"</td>
+                            <td class="done">
+                                <input type="checkbox" name="h2030-17" id="h2030-17">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scrypt.js"></script>
+</body>
+</html>
+
+
+<!-- 
+
+
+
+
+21-21 Ashenvale
+
+
+ 1) 21-21 Ashenvale" },
+ 2) Run to Splintertree Post at #COORD[73,65]#", x = 73, y = 65, zone = "Ashenvale" },
+ 3) Turn in #INThe Ashenvale Hunt# .  Then accept and turn in #INThe Ashenvale Hunt# again." },
+ 4) Get FP in Splintertree Post." },
+ 5) Run all the way to Zoram Strand at #COORD[13,31]#, grind mobs along the way.", x = 13, y = 31, zone = "Ashenvale" },
+ 6) Get FP there. #COORD[12,33]#.  Turn in #INTrouble in the Deeps# .. i SKIP #NPCThe Essence of Aku'Mai# ", x = 12, y = 33, zone = "Ashenvale" },
+ 7) Do the following quests:" },
+ 8) Accept and do #DONaga at the Zoram Strand# then turn it in." },
+ 9) Hearth back to XRs, if hearth stone is still on a cooldown, fly there." },
+
+
+22-23 Southern Barrens
+
+
+ 1) 22-23 Southern Barrens" },
+ 2) Fly to CT." },
+ 3) Turn in #INJorn Skyseer# ... accept #GETIshamuhale# and #GETMelor Sends Word# " },
+ 4) Make CT your home." },
+ 5) I give bloodshards to the gnoll in the cage to get increased agility/spirit." },
+ 6) Run south and keep an eye out for the mob named #NPCOwatanka# around #COORD[45,62]#, he drops 'Owatanka's Tailspike' which starts #GETOwatanka# ", x = 45, y = 62, zone = "The Barrens" },
+ 7) #DOEgg Hunt# #COORD[44,71]#", x = 44, y = 71, zone = "The Barrens" },
+ 8) #DOChen's Empty Keg# (if you have it)" },
+ 9) #DOBetrayal from Within# and #DOWeapons of Choice# #COORD[43,79]#", x = 43, y = 79, zone = "The Barrens" },
+ 10) Accept #GETGann's Reclamation# from #NPCGann Stonespire#.  Then go do it at #COORD[46,86]#. Then turn it in, accept #GETRevenge of Gann# ", x = 46, y = 86, zone = "The Barrens" },
+ 11) Hearth back to Camp Taurajo, turn in #INWeapons of Choice# and #INBetrayal from Within# ... accept #GETBetrayal from Within# part2" },
+ 12) Fly to XR." },
+ 13) Turn in #INBetrayal from Within# part2 and #INEgg Hunt# " },
+ 14) Do #DOIshamuhale# at #COORD[60,32]#", x = 60, y = 32, zone = "The Barrens" },
+ 15) Turn in #INFurther Instructions# at Ratchet #COORD[63,37]# ... accept #GETFurther Instructions# part2", x = 63, y = 37, zone = "The Barrens" },
+ 16) Turn in #INDeepmoss Spider Eggs# and #INChen's Empty Keg# " },
+ 17) Fly to Stonetalon Mountains..." },
+
+
+23-25 Stonetalon Mountains
+
+ 2) Accept all quests at Sun Rock Retreat (which include: #GETCenarius' Legacy# #GETCycle of Rebirth# and #GETHarpies Threaten# )..." },
+ 3) Make Sun Rock Retreat your home." },
+ 4) Turn in #INBoulderslide Ravine# .. I SKIP #NPCEarthen Arise# (accept #GETElemental War# there though)" },
+ 5) Do:" },
+ 6) #DOCycle of Rebirth#, pick up the seeds around #COORD[48,41]#", x = 48, y = 41, zone = "Stonetalon Mountains" },
+ 7) #DOCenarius' Legacy#, done at around #COORD[35,14]#", x = 35, y = 14, zone = "Stonetalon Mountains" },
+ 8) #DOJin'Zil's Forest Magic#, the mobs are around the path at #COORD[45,27]#, and the area at #COORD[34,14]#", x = 45, y = 27, zone = "Stonetalon Mountains" },
+ 9) Go back to Sun Rock Retreat and turn in #INCycle of Rebirth# ... accept #GETNew Life# " },
+ 10) Turn in #INCenarius' Legacy# ... accept  #GETOrdanus# " },
+ 11) Go turn in #INFurther Instructions# part2 #COORD[58,62]#... accept #GETGerenzo Wrenchwhistle# ", x = 58, y = 62, zone = "Stonetalon Mountains" },
+ 12) Go do #DOGerenzo Wrenchwhistle# at #COORD[64,41]#  and #DOShredding Machines#   (kill #NPCXT:4# and #NPCXT:9#)", x = 64, y = 41, zone = "Stonetalon Mountains" },
+ 13) Then turn in #INGerenzo Wrenchwhistle# . #COORD[58,62]#. If you couldn't do Arachnophobia, do it now!", x = 58, y = 62, zone = "Stonetalon Mountains" },
+ 14) Run down south and turn in #INJin'Zil's Forest Magic# #COORD[74,97]#", x = 74, y = 97, zone = "Stonetalon Mountains" },
+ 15) Turn in #INShredding Machines# in the Barrens at #COORD[35,27]#", x = 35, y = 27, zone = "The Barrens" },
+ 16) Hearth back to Sun Rock Retreat and turn in #INArachnophobia# if you just did it." },
+ 17) Stock back up on food/water." },
+ 
+18) Go do #DOHarpies Threaten# along with #DOElemental War# and #DONew Life# at the Charred Vale, #COORD[32,67]#", x = 32, y = 67, zone = "Stonetalon Mountains" },
+ 19) Once they are all done, make sure you are at least 5 bars away from level 25, so you may have to grind a little.  " },
+ 20) Then go turn them all in, and accept #GETCalling in the Reserves# " },
+ 21) Then fly to CT..." },
+
+
+
+
+25-25 Southern Barrens2
+
+
+ 1) 25-25 Southern Barrens" },
+  2) Turn in #INIshamuhale# ... accept #GETEnraged Thunder Lizards# " },
+ 3) Make CT your home." },
+ 4) Accept #GETA New Ore Sample# (need to be lvl 25 to get this)" },
+ 5) Go down and do:" },
+ 6) #DOEnraged Thunder Lizards# " },
+ 7) You should find the mob #NPCWashte Pawne#, he drops 'Washte Pawne Feather' which starts #GETWashte Pawne# " },
+ 8) #DORevenge of Gann# at #COORD[47,85]# Once done, Turn it in, accept the next part...", x = 47, y = 85, zone = "The Barrens" },
+ 9) Do #DORevenge of Gann# Part 3 at #COORD[46,85]#, then turn it in.", x = 46, y = 85, zone = "The Barrens" },
+ 10) Head south down the path to the Great Lift #COORD[44,91]#,and turn in #INCalling in the Reserves# ", x = 44, y = 91, zone = "The Barrens" },
+ 11) Accept #GETMessage to Freewind Post# " },
+ 12) Run to Freewind Post... #COORD[45,50]# in Thousand Needles", x = 45, y = 50, zone = "Thousand Needles" },
+
+
+25-26 Thousand Needles
+
+
+ 1) 25-26 Thousand Needles" },
+ 2) Turn in #INMessage to Freewind Post# accept #GETPacify the Centaur# " },
+ 3) Accept #GETWanted - Arnak Grimtotem# #GETAlien Egg# and #GETWind Rider# " },
+ 4) Get FP there." },
+ 5) Go do (in the following order):" },
+ 6) #DOPacify the Centaur# (mobs are just north)" },
+ 7) #DOTest of Faith#, the cave at #COORD[52,43]#", x = 52, y = 43, zone = "Thousand Needles" },
+ 8) #DOA New Ore Sample#   (if you can't find the drop, just skip it for now)" },
+ 9) #DOAlien Egg#, it has 4 possible spawn points, around: #COORD[52,56]# / #COORD[45,63]# / #COORD[41,60]# / #COORD[50,56]#, and there might be more, just check around those areas.)", x = 52, y = 56, zone = "Thousand Needles" },
+ 10) If you're not level 26 (or two bars away from it), grind till you are." },
+ 11) Go up to Freewind Post #COORD[45,50]#..", x = 45, y = 50, zone = "Thousand Needles" },
+ 12) Turn in #INPacify the Centaur# ... accept #GETGrimtotem Spying# " },
+ 13) Turn in #INAlien Egg# ... accept #GETSerpent Wild# " },
+ 14) Hearth to Camp Taurajo." },
+ 15) Turn in #INEnraged Thunder Lizards# and #INWashte Pawne# ... accept #GETCry of the Thunderhawk# " },
+ 16) Turn in #INA New Ore Sample# " },
+ 17) Go do #DOCry of the Thunderhawk# then turn it in ... I SKIP #NPCMahren Skyseer# " },
+ 18) Fly to Thunder Bluff to get new spells/abilities." },
+ 19) Turn in #INMelor Sends Word#, #COORD[61,80]# on the Hunter Rise... accept #GETSteelsnap# ", x = 61, y = 80, zone = "Thunder Bluff" },
+ 20) Accept #GETThe sacred Flame# #COORD[55,51]#", x = 55, y = 51, zone = "Thunder Bluff" },
+ 21) Fly to Splintertree Post, Ashenvale..." },
+
+
+26-27 Ashenvale
+
+
+ 1) 26-27 Ashenvale" },
+ 2) Make it your home." },
+ 3) Do the following order:" },
+ 4) Accept all the quests, which include: #GETStonetalon Standstill# #GETSatyr Horns# #GETAshenvale Outrunners# (accept this at #COORD[71,68]#).  Make sure #GETThe Ashenvale Hunt# is turned in at #NPCSenani Thunderheart# (you can accept this quest right at the NPC itself). Note: I SKIP #NPCWarsong Supplies# and #NPCThe Lost Pages# ", x = 71, y = 68, zone = "Ashenvale" },
+ 5) Kill the first of the three mobs related to the Ashenvale hunt:" },
+ 6) #DOSharptalon's Claw#, Kill #NPCSharptalon# who patrols around #COORD[74,70]#, he drops the item that starts this quest. Hint: easy way to kill it (he's lvl 31 mob), is to kite him into the guards at Splintertree Post. ", x = 74, y = 70, zone = "Ashenvale" },
+ 7) Do: #DOAshenvale Outrunners#, around #COORD[71,72]#. Once the quest is completed, turn it in when you get the chance.", x = 71, y = 72, zone = "Ashenvale" },
+ 8) Then go slightly west and do #DOTorek's Assault# at #COORD[68,75]#", x = 68, y = 75, zone = "Ashenvale" },
+ 9) Then go do #DOStonetalon Standstill# at the lake at #COORD[53,70]#. Find and kill #NPCTideress# he drops an item which starts: #GETThe Befouled Element# ", x = 53, y = 70, zone = "Ashenvale" },
+ 10) Kill #NPCUrsangous#, around #COORD[42,67]# for #DOUrsangous's Paw# (Ashenvale hunt)", x = 42, y = 67, zone = "Ashenvale" },
+ 11) Kill #NPCShadumbra#, around #COORD[56,54]# for #DOShadumbra's Head# (Ashenvale hunt)", x = 56, y = 54, zone = "Ashenvale" },
+ 12) #DOThe sacred Flame#: First find a phial killing the dryads at #COORD[61,52]#, then fill it at the moonwell at #COORD[60,72]#", x = 60, y = 72, zone = "Ashenvale" },
+ 13) Hearth to Splintertree Post to turn in #INStonetalon Standstill# #INThe Befouled Element# (accept #GETJe'neu of the Earthen Ring# ) #INTorek's Assault# and all three of the 'Ashenvale Hunt' quests, then accept and complete #INThe Hunt Completed# " },
+ 14) Fly to Zoram Strand, and turn in #INJe'neu of the Earthen Ring# " },
+ 15) Accept and do #DOVorsha the Lasher# .  Once done go back and turn it in." },
+ 16) Accept and do: #DOBetween a Rock and a Thistlefur# #COORD[34,37]# and #DOTroll Charm# at the cave at #COORD[38,30]#.  #VIDEONOTE:#  While you are in the cave, there is an escort quest (a white bear-formed druid in a cage) called #DOFreedom to Ruul# , try to do this quest, you may have to fight 3-5 mobs at once several times, if you fail then it can be skipped.", x = 34, y = 37, zone = "Ashenvale" },
+ 17) Once they are both completed, go turn in #INBetween a Rock and a Thistlefur# and #INTroll Charm# (back at the Zoram Strand), then hearth back to Splintertree Post.  Turn in #INFreedom to Ruul# (if you did it)" },
+ 18) If im not level 27 i'll grind till I am." },
+ 19) Go do #DOOrdanus# #COORD[61,52]# (#VIDEOfight your way to him, just kill the guy, grab his head and jump out of there!#)", x = 61, y = 52, zone = "Ashenvale" },
+ 20) Go do #DOSatyr Horns#, done at the Night Run, #COORD[67,53]#  (entrance to the area is around #COORD[64,42]#).", x = 67, y = 53, zone = "Ashenvale" },
+ 21) Run back to Splintertree Post (don't hearth).  Turn in #INSatyr Horns#" },
+ 22) Fly to Stonetalon Mountains..." },
+
+
+27-27 Stonetalon Mountains
+
+
+ 1) 27-27 Stonetalon Mountains" },
+ 2) Turn in #INOrdanus# ... I SKIP #NPCThe Den# " },
+ 3) Make Sun Rock Retreat your home." },
+ 4) Accept and do #DOBloodfury Bloodline# , go kill Bloodfury Ripper at #COORD[30,63]# (grinding mobs along the way) , then hearth back.." },
+ 5) Turn #INBloodfury Bloodline# in." },
+ 6) Fly to Thunder Bluff." },
+ 7) Make Thunder Bluff your home." },
+ 8) Turn in #INThe sacred Flame# at #COORD[54,51]# in TB... accept #GETThe sacred Flame# part2", x = 54, y = 51, zone = "Thunder Bluff" },
+ 9) Fly to Thousand Needles..." },
+
+
+
+27-29 Thousand Needles
+
+ 1) 27-29 Thousand Needles" },
+ 2) Turn in #INThe sacred Flame# ... accept #GETThe sacred Flame# part3" },
+ 3) I do the following order:" },
+ 4) #DOThe sacred Flame#, charge the brazier in the cave at #COORD[44,37]#.", x = 44, y = 37, zone = "Thousand Needles" },
+ 5) Go to Whitereach Post #COORD[21,32]#, accept #GETHypercapacitor Gizmo# , Turn in #INSerpent Wild# ...accept #GETSacred Fire# ", x = 21, y = 32, zone = "Thousand Needles" },
+ 6) Go do: #DOSacred Fire# #COORD[35,36]#", x = 35, y = 36, zone = "Thousand Needles" },
+ 7) #DOWind Rider# #COORD[11,36]#", x = 11, y = 36, zone = "Thousand Needles" },
+ 8) #DOHomeward Bound#, escort starts at #COORD[17,40]#.  (If the Elite gets in the way, skip it).", x = 17, y = 40, zone = "Thousand Needles" },
+ 9) #DOSteelsnap#, he patrols around #COORD[16,25]#.", x = 16, y = 25, zone = "Thousand Needles" },
+ 10) Hearth to Thunder Bluff." },
+ 11) Get new spells/abilities." },
+ 12) Turn in #INSteelsnap# (on Hunter Rise) ... accept #GETFrostmaw# " },
+ 13) Turn in #INSacred Fire# (on Elder Rise) ... accept #GETArikara# " },
+ 14) Fly back to 1K Needles." },
+ 15) Make Freewind Post your home." },
+ 16) Turn in #INThe sacred Flame# and #INWind Rider# " },
+ 17) Go to the Darkcloud Pinnacle (the entrance ramp is at #COORD[31,36]#), and do the following quests: #DOGrimtotem Spying#, the notes are up in the rises at #COORD[31,32]#, #COORD[33,39]#, and #COORD[39,41]#", x = 31, y = 36, zone = "Thousand Needles" },
+ 18) #DOArikara# done at #COORD[37,35]#.", x = 37, y = 35, zone = "Thousand Needles" },
+ 19) #DOWanted - Arnak Grimtotem#, at #COORD[38,27]#.", x = 38, y = 27, zone = "Thousand Needles" },
+ 20) #DOFree at Last#, escort quest starts at #COORD[38,27]#.", x = 38, y = 27, zone = "Thousand Needles" },
+ 21) Go to Whitereach Post #COORD[21,32]#, turn in #INArikara# and #INHomeward Bound#", x = 21, y = 32, zone = "Thousand Needles" },
+ 22) You should be level 29 by now, if not grind to level 29, I grind away at centuars around Camp E'Thok #COORD[18,23]#", x = 18, y = 23, zone = "Thousand Needles" },
+ 23) Then do #DOHypercapacitor Gizmo# (Elite) at #COORD[22,24]#. Clear mobs around the cage, free him and kill him.", x = 22, y = 24, zone = "Thousand Needles" },
+ 24) Kill the #NPCGalak Messenger#, he drops 'Assassination Note' which starts #GETAssassination Plot# Turn in for Easy XP.  Also turn in #INHypercapacitor Gizmo#" },
+ 25) Then do: #DOProtect Kanati Greycloud# " },
+ 26) If you are not at least 4 bars from level 30, grind until you are.  Then hearth back to Freewind Post." },
+ 27) Turn in #INFree at Last# #INWanted - Arnak Grimtotem# #INGrimtotem Spying#" },
+ 28) NOTE: I skip #NPCTest of Endurance# " },
+ 29) Fly to Orgrimmar" },
+ 30) Make Orgrimmar your home." },
+ 31) Get new spells/abilities." },
+ 32) Go to Undercity (UC).  You need to get on the zeppelin just right outside of Orgrimmar." },
+ 33) Run to Tarren Mill in Hillsbrad Foothills.. (You can just bypass the UC for now if you like and just follow the path south out of Tirisfal Glades and into Silverpine Forest)" },
+
+
+
+29-30 Hillsbrad Foothills
+
+
+ 1) 29-30 Hillsbrad Foothills" },
+ 2) Accept #GETTime To Strike# (at the Southpoint Tower, right when u enter Hillsbrad)" },
+ 3) Once at Tarren Mill:" },
+ 4) Turn in #INTime To Strike# " },
+ 5) Accept #GETHelcular's Revenge# " },
+ 6) Accept #GETElixir of Pain# " },
+
+ 7) GET FLIGHT PATH THERE!!!!" },
+ 8) Go start killing Yetis..." },
+ 9) I keep grinding away at Yetis until I hit 30. (OPTIONAL: you could go do RFK instead of the grinding)" },
+ 10) Also, the #NPCHelcular's Rod# should have dropped before hitting 30, if not keep grinding away till it does." },
+ 11) As soon as i hit 30, I hearth to Orgrimmar to get new spells/abilities." },
+ 12) Then go back to Hillsbrad." },
+ 13) Turn #INHelcular's Revenge# in, accept the next part to it." },
+ 14) Go back to the Yeti cave..." },
+ 15) Charge The Flame of Azel and the Flame of Veraz,  for the quest #DOHelcular's Revenge# " },
+ 16) I keep grinding away at Yetis until my pet levels up." },
+ 17) Go up into Alterac Mountains..." }, -->
